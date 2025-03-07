@@ -26,4 +26,19 @@ public class Cuenta {
       saldo = saldo + cantidad;
            
   }
-}
+   public void Retirar(float cantidad){
+      float saldoTemporal= saldo - cantidad;
+   
+      if (saldoTemporal >=0 ){
+          saldo= saldo- cantidad;
+      }
+      
+          else {
+                  System.out.println("La cantidad al retirar excede el saldo");
+                  }
+      
+      }
+   }
+   
+  
+
