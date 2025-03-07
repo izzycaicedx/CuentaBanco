@@ -8,6 +8,9 @@ public class Principal {
         cuenta1.Consignar(2501);
         System.out.println("");
         cuenta1.imprimir();
+        
+        cuenta1.Retirar(150);
+        cuenta1.imprimir();
     }
     
         
