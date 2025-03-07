@@ -13,6 +13,7 @@ public class Cuenta {
         this.tasaAnual = tasaAnual;
     }
     
+    
     public void imprimir (){
         System.out.println("saldo: " + saldo);
         System.out.println("Numero de consignaciones: "+ numeroConsignacion);
@@ -20,5 +21,9 @@ public class Cuenta {
         System.out.println("Tasa anual: " + tasaAnual);
         System.out.println("Comision mensual: " + comisionMensual);
     }
-  
+  public void Consignar(float cantidad){
+      
+      saldo = saldo + cantidad;
+           
+  }
 }
